@@ -1,0 +1,23 @@
+{
+  "name": "anz-webdriver-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx wdio run ./wdio.conf.js",
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.5.7",
+    "@wdio/cucumber-framework": "^7.5.3",
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/selenium-standalone-service": "^7.5.7",
+    "@wdio/spec-reporter": "^7.5.7"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.2.1"
+  }
+}
