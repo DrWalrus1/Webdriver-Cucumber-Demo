@@ -70,6 +70,11 @@ exports.config = {
         maxInstances: 5,
         browserName: 'firefox',
         acceptInsecureCerts: true
+    },
+    {
+        maxInstances: 5,
+        browserName: 'MicrosoftEdge',
+        acceptInsecureCerts: true
     }],
     //
     // ===================
